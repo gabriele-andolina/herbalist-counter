@@ -10,3 +10,36 @@ body {
     font-family: Great Vibes, Times New Roman, sans-serif;
     font-weight: 400;
 }
+
+header {
+    background-color: #206A5D;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+#shop-logo {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu li {
+    font-size: 120%;
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    float: none;
+}
+
+#menu li:hover {
+    text-decoration: underline;
+}
