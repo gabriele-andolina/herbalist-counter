@@ -45,6 +45,37 @@ header a {
     text-decoration: underline;
 }
 
-#hero-image {
+img {
     width: 100%;
+    filter: brightness(30%);
 }
+
+.background-image {
+    position: relative;
+}
+
+.cover-text-title {
+    width: 30%;
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+.cover-text {
+    height: 40%;
+    width: 30%;
+    color: white;
+    font-family: Montserrat, Times New Roman, sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
