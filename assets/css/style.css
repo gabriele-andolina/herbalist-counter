@@ -13,6 +13,7 @@ body {
 
 header {
     background-color: #206A5D;
+    height: 110px;
 }
 
 header a {
@@ -77,5 +78,19 @@ img {
     line-height: 40px;
 }
 
+footer {
+    height: 55px;
+    background-color: #206A5D;
+    position: relative;
+}
 
+.footer-left {
+    font-family: Montserrat, Times New Roman, sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    
+}
 
