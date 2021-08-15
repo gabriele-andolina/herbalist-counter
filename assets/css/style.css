@@ -52,29 +52,29 @@ img {
     
 }
 
-.background-image {
+.background-image,.section-one {
     position: relative;
 }
 
-.cover-text-title {
-    width: 30%;
+.cover-text-title, .section-one-title {
+    width: 70%;
     color: white;
     position: absolute;
-    left: 35%;
-    top: 30%;
+    left: 15%;
+    top: 10%;
     text-align: center;
     font-size: 200%;
     
 }
 
-.cover-text {
+.cover-text, .section-one-text {
     height: 40%;
-    width: 30%;
+    width: 70%;
     color: white;
     font-family: Montserrat, Times New Roman, sans-serif;
     position: absolute;
-    left: 35%;
-    top: 50%;
+    left: 15%;
+    top: 25%;
     text-align: center;
     line-height: 40px;
 }
