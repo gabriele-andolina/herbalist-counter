@@ -84,8 +84,9 @@ footer {
     position: relative;
 }
 
-.footer-left {
+.copyright {
     font-family: Montserrat, Times New Roman, sans-serif;
+    font-size: 100%;
     color: white;
     float: left;
     position: absolute;
@@ -94,3 +95,20 @@ footer {
     
 }
 
+.social-media {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    font-size: 100%;
+    letter-spacing: 30px;
+}
+
+.social-media a {
+    color: white;
+    list-style-type: none;
+}
+
+.social-media li {
+    display: inline-block;
+}
