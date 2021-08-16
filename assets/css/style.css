@@ -52,11 +52,11 @@ img {
     
 }
 
-.homepage, .section-one, .section-two {
+.homepage, .section-one, .section-two, .section-three {
     position: relative;
 }
 
-.cover-text-title {
+.cover-text-title, .section-one-title, .section-two-title, .section-three-title {
     width: 70%;
     color: white;
     position: absolute;
@@ -67,7 +67,7 @@ img {
     
 }
 
-.cover-text {
+.cover-text, .section-one-text, .section-two-text, .section-three-text {
     height: 40%;
     width: 70%;
     color: white;
@@ -112,48 +112,4 @@ footer {
 
 .social-media li {
     display: inline-block;
-}
-
-.section-one-title {
-    width: 70%;
-    color: white;
-    position: absolute;
-    left: 15%;
-    top: 10%;
-    text-align: center;
-    font-size: 200%;
-}
-
-.section-one-text {
-    height: 40%;
-    width: 70%;
-    color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    text-align: center;
-    line-height: 40px;
-}
-
-.section-two-title {
-    width: 70%;
-    color: white;
-    position: absolute;
-    left: 15%;
-    top: 10%;
-    text-align: center;
-    font-size: 200%;
-}
-
-.section-two-text {
-    height: 40%;
-    width: 70%;
-    color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    text-align: center;
-    line-height: 40px;
 }
