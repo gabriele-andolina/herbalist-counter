@@ -49,7 +49,6 @@ header a {
 img {
     width: 100%;
     filter: brightness(30%);
-    
 }
 
 .homepage, .section-one, .section-two, .section-three {
@@ -112,4 +111,9 @@ footer {
 
 .social-media li {
     display: inline-block;
+}
+
+section {
+    height: 800px;
+    overflow: hidden;
 }
