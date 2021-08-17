@@ -51,6 +51,16 @@ img {
     filter: brightness(30%);
 }
 
+section {
+    height: 800px;
+    overflow: hidden;
+    border-bottom: 1px solid #9db1a4;
+}
+
+.homepage, .section-one {
+    border-top: 1px solid #9db1a4;
+}
+
 .homepage, .section-one, .section-two, .section-three {
     position: relative;
 }
@@ -113,7 +123,3 @@ footer {
     display: inline-block;
 }
 
-section {
-    height: 800px;
-    overflow: hidden;
-}
