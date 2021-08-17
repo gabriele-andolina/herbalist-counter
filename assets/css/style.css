@@ -123,3 +123,14 @@ footer {
     display: inline-block;
 }
 
+.contacts-section-one-text {
+    height: 40%;
+    width: 70%;
+    color: white;
+    font-family: Montserrat, Times New Roman, sans-serif;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    text-align: left;
+    line-height: 40px;
+}
