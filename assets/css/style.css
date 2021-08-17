@@ -134,3 +134,24 @@ footer {
     text-align: left;
     line-height: 40px;
 }
+
+.contact-form {
+    width: 40%;
+    padding: 2%;
+    color: white;
+    font-family: Montserrat, Times New Roman, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: left;
+    border: 1px solid white;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
