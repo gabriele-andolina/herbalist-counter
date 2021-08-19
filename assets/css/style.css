@@ -144,7 +144,7 @@ footer {
     top: 25%;
     left: 25%;
     text-align: left;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 input, label {
@@ -152,6 +152,22 @@ input, label {
     width: 100%;
 }
 
-textarea {
+#textarea {
     width: 100%;
+    font-family: Montserrat, Times New Roman, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.send-button {
+    background-color: white;
+    font-family: Montserrat, Times New Roman, sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+.send-button:hover {
+    background-color: black;
+    color: white;
 }
