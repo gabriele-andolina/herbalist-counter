@@ -11,6 +11,7 @@ body {
     font-weight: 400;
 }
 
+/* Header: shop logo and navigation bar */
 header {
     background-color: #206A5D;
     height: 110px;
@@ -46,6 +47,7 @@ header a {
     text-decoration: underline;
 }
 
+/* Main sections: background image, section title and content */
 img {
     width: 100%;
     filter: brightness(30%);
@@ -88,41 +90,6 @@ section {
     line-height: 40px;
 }
 
-footer {
-    height: 55px;
-    background-color: #206A5D;
-    position: relative;
-}
-
-.copyright {
-    font-family: Montserrat, Times New Roman, sans-serif;
-    font-size: 100%;
-    color: white;
-    float: left;
-    position: absolute;
-    left: 10px;
-    top: 30%;
-    
-}
-
-.social-media {
-    float: right;
-    position: absolute;
-    right: 10px;
-    top: 30%;
-    font-size: 100%;
-    letter-spacing: 30px;
-}
-
-.social-media a {
-    color: white;
-    list-style-type: none;
-}
-
-.social-media li {
-    display: inline-block;
-}
-
 .contacts-section-one-text {
     height: 40%;
     width: 70%;
@@ -135,6 +102,20 @@ footer {
     line-height: 40px;
 }
 
+.info-details {
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+
+#iframe {
+    height: 50%;
+    position: absolute;
+    right: 25%;
+    bottom: 55%;
+}
+
+/* Contact form */
 .contact-form {
     width: 40%;
     padding: 2%;
@@ -170,4 +151,65 @@ input, label {
 .send-button:hover {
     background-color: black;
     color: white;
+}
+
+/* Footer: copyright and social media links */
+footer {
+    height: 55px;
+    background-color: #206A5D;
+    position: relative;
+}
+
+.copyright {
+    font-family: Montserrat, Times New Roman, sans-serif;
+    font-size: 100%;
+    color: white;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    
+}
+
+.social-media {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    font-size: 100%;
+    letter-spacing: 30px;
+}
+
+.social-media a {
+    color: white;
+    list-style-type: none;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+/* Media queries */
+/* For screens size of 1200px and down */
+@media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
+        .cover-text-title {
+            top: 2%;
+        }
+    
+        .cover-text {
+           top: 12%
+        }
+    
+        section {
+            height: 600px;
+        }
+        
+        #iframe {
+            width: 40%;
+            position: absolute;
+            left: 45%;
+            top: 15%;  
+        }
+    }
 }
