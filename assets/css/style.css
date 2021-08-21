@@ -198,12 +198,17 @@ footer {
         }
     
         .cover-text, .section-one-text, .section-two-text, .section-three-text {
-           top: 12%;
+           height: 60%;
+           top: 20%;
            font-size: 70%;
+           overflow: scroll;
+           border: 1px solid white;
+           padding: 2%;
         }
-    
+
         section {
             height: 600px;
+            
         }
         
         #iframe {
