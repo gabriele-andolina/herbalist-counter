@@ -123,7 +123,7 @@ section {
     font-family: Montserrat, Times New Roman, sans-serif;
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 30%;
     text-align: left;
     border: 2px solid white;
 }
@@ -192,30 +192,54 @@ footer {
 /* Media queries */
 /* For screens size of 1200px and down */
 @media screen and (max-width: 1200px) {
-    @media screen and (max-width: 1200px) {
-        .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-            top: 2%;
-        }
+    .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
+        top: 2%;
+    }
     
-        .cover-text, .section-one-text, .section-two-text, .section-three-text {
-           height: 60%;
-           top: 20%;
-           font-size: 70%;
-           overflow: scroll;
-           border: 1px solid white;
-           padding: 2%;
+    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+        height: 60%;
+        top: 20%;
+        font-size: 70%;
+        overflow: scroll;
+        padding: 2%;
         }
 
-        section {
-            height: 600px;
+    section {
+        height: 600px;
             
-        }
+    }
         
-        #iframe {
-            width: 40%;
-            position: absolute;
-            left: 45%;
-            top: 15%;  
-        }
+    #iframe {
+        width: 40%;
+        position: absolute;
+        left: 45%;
+        top: 15%;  
     }
 }
+
+/* For screens size of 900px and down */
+@media screen and (max-width: 900px) {
+    section {
+        height: 100%;
+    }
+
+    .contacts-section-one-text {
+        top: 15%;
+    }
+    
+    #iframe {
+        width: 30%;
+        left: 60%;
+        bottom: 55%;
+    }
+    
+    .contact-form {
+        top: 15%;
+        
+    }
+    
+}
+        
+        
+        
+    
