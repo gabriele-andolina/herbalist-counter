@@ -50,7 +50,7 @@ header a {
 /* Main sections: background image, section title and content */
 img {
     width: 100%;
-    filter: brightness(30%);
+    filter: brightness(50%);
 }
 
 section {
@@ -363,10 +363,10 @@ footer {
 
     .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
         color: black;
-        width: 60%;
+        width: 70%;
         height: 580px;
         top: 32%;
-        left: 20%;
+        left: 15%;
         line-height: 24px;
         text-align: center;
         border: 2px solid black;
@@ -406,6 +406,10 @@ footer {
         height: 100%;
         color: black;
         border: 2px solid black
+    }
+
+    .social-media {
+        letter-spacing: 15px;
     }
 }
         
