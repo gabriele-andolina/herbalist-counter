@@ -204,7 +204,7 @@ footer {
         }
 
     section {
-        height: 600px;
+        height: 1200px;
             
     }
         
@@ -254,7 +254,7 @@ footer {
     }
 
     .contacts-section-one-text {
-        top: 15%;
+        top: 10%;
         line-height: 35px;
     }
     
@@ -267,6 +267,10 @@ footer {
     .contact-form {
         top: 12%;
         
+    }
+
+    #textarea {
+        height: 180px;
     }
 
     footer {
@@ -285,6 +289,7 @@ footer {
     
 }
 
+/* For screens size of 640px and down */
 @media screen and (max-width: 640px) {
     #shop-logo {
         font-size: 200%
@@ -322,11 +327,11 @@ footer {
 
     .contact-form {
         width: 50%;
-        left: 25%
+        left: 25%;
     }
 
     #textarea {
-        height: 180px
+        height: 180px;
     }
 
     .copyright {
@@ -340,5 +345,68 @@ footer {
     }
 }
         
+/* For screens size of 420px and down */
+@media screen and (max-width: 420px) {
+    section {
+        height: 900px;
+    }
+
+    .homepage {
+        height: 650px;
+
+    }
+
+    .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
+        top: 11%;
+        font-size: 150%
+    }
+
+    .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
+        color: black;
+        width: 60%;
+        height: 580px;
+        top: 32%;
+        left: 20%;
+        line-height: 24px;
+        text-align: center;
+        border: 2px solid black;
+    }
+
+    .cover-text {
+        color: black;
+        width: 50%;
+        height: 300px;
+        top: 46%;
+        left: 23%;
+        line-height: 22px;
+        border: 2px solid black;
+    }
+
+    #iframe {
+        width: 50%;
+        height: 16%;
+        left: 5%;
+        top: 50%;
+    }
+
+    .contact-form {
+        width: 70%;
+        height: 45%;
+        color: black;
+        top: 40%;
+        left: 12%;
+        border: 2px solid black;
+    }
+    
+    input {
+        border: 2px solid black
+    }
+    
+    #textarea {
+        height: 100%;
+        color: black;
+        border: 2px solid black
+    }
+}
         
     
