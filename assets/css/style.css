@@ -200,7 +200,6 @@ footer {
         height: 60%;
         top: 20%;
         font-size: 70%;
-        overflow: scroll;
         padding: 2%;
         }
 
@@ -219,12 +218,44 @@ footer {
 
 /* For screens size of 900px and down */
 @media screen and (max-width: 900px) {
+    header {
+        height: 80%;
+    }
+
+    #shop-logo {
+        font-size: 250%
+    }
+
+    #menu li {
+        font-size: 80%;
+    }
+
     section {
         height: 100%;
     }
 
+    .homepage, .section-one {
+        margin-top: 5px;
+    }
+
+    .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
+        top: 2%;
+        font-size: 150%
+    }
+
+    .cover-text, .section-two-text {
+        top: 20%;
+        line-height: 25px;
+    }
+    
+    .section-one-text, .section-three-text {
+        top: 10%;
+        line-height: 25px;
+    }
+
     .contacts-section-one-text {
         top: 15%;
+        line-height: 35px;
     }
     
     #iframe {
@@ -234,12 +265,80 @@ footer {
     }
     
     .contact-form {
-        top: 15%;
+        top: 12%;
         
+    }
+
+    footer {
+        height: 45px;
+    }
+    
+    .copyright {
+        font-size: 80%;
+        top: 35%;
+    }
+
+    .social-media {
+        font-size: 80%;
+        top: 35%
     }
     
 }
-        
+
+@media screen and (max-width: 640px) {
+    #shop-logo {
+        font-size: 200%
+    }
+
+    #menu li {
+        font-size: 60%;
+    }
+
+    .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
+        top: 5%;
+        font-size: 100%
+    }
+
+    .cover-text, .section-two-text {
+        top: 20%;
+        line-height: 22px;
+    }
+    
+    .section-one-text, .section-three-text {
+        top: 10%;
+        line-height: 20px;
+    }
+
+    .contacts-section-one-text {
+        top: 20%;
+        line-height: 25px;
+    }
+
+    #iframe {
+        width: 25%;
+        left: 65%;
+        top: 5%;
+    }
+
+    .contact-form {
+        width: 50%;
+        left: 25%
+    }
+
+    #textarea {
+        height: 180px
+    }
+
+    .copyright {
+        font-size: 60%;
+        top: 35%;
+    }
+
+    .social-media {
+        font-size: 60%;
+        top: 35%
+    }
+}
         
         
     
