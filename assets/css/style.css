@@ -373,7 +373,25 @@ footer {
         line-height: 40px;
     }
 }
-        
+
+/* For screens size of 568px and down */
+@media screen and (max-width: 568px) {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+        line-height: 35px;
+    }
+
+    .section-two-title {
+        width: 100%;
+        left: auto;
+    }
+
+    #iframe {
+        right: 5%;
+        width: 35%;
+        height: 20%;
+    }
+}
+
 /* For screens size of 420px and down */
 @media screen and (max-width: 420px) {
     section {
