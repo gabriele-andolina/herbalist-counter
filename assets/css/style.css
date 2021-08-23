@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Great Vibes, Times New Roman, sans-serif;
+    font-family: "Great Vibes", "Times New Roman", sans-serif;
     font-weight: 400;
 }
 
@@ -35,7 +35,7 @@ header a {
 }
 
 #menu li {
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     font-size: 100%;
     display: inline-block;
     padding: 10px;
@@ -82,7 +82,7 @@ section {
     height: 40%;
     width: 70%;
     color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     position: absolute;
     left: 15%;
     top: 25%;
@@ -94,7 +94,7 @@ section {
     height: 40%;
     width: 70%;
     color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     position: absolute;
     left: 15%;
     top: 25%;
@@ -120,7 +120,7 @@ section {
     width: 40%;
     padding: 2%;
     color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     position: absolute;
     top: 25%;
     left: 30%;
@@ -135,14 +135,14 @@ input, label {
 
 #textarea {
     width: 100%;
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     font-weight: 700;
     color: black;
 }
 
 .send-button {
     background-color: white;
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     color: black;
     font-weight: 700;
     font-size: 100%;
@@ -161,7 +161,7 @@ footer {
 }
 
 .copyright {
-    font-family: Montserrat, Times New Roman, sans-serif;
+    font-family: "Montserrat", "Times New Roman", sans-serif;
     font-size: 100%;
     color: white;
     float: left;
