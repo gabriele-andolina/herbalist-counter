@@ -394,70 +394,33 @@ footer {
 
 /* For screens size of 420px and down */
 @media screen and (max-width: 420px) {
-    section {
-        height: 900px;
-    }
-
-    .homepage {
-        height: 650px;
-
+    #menu li {
+        font-size: 80%;
     }
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-        top: 11%;
         font-size: 150%
     }
-
-    .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
-        color: black;
-        width: 70%;
-        height: 580px;
-        top: 32%;
-        left: 15%;
-        line-height: 24px;
-        text-align: center;
-        border: 2px solid black;
-    }
-
-    .cover-text {
-        color: black;
-        width: 50%;
-        height: 300px;
-        top: 46%;
-        left: 23%;
-        line-height: 22px;
-        border: 2px solid black;
+    
+    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+        height: 60%;
+        font-size: 100%;
     }
 
     #iframe {
-        width: 50%;
-        height: 16%;
-        left: 5%;
-        top: 50%;
+        top: 70%;
+        right: 30%;
+        width: 70%;
+        height: 18%;
     }
 
     .contact-form {
         width: 70%;
-        height: 50%;
-        color: black;
-        top: 40%;
-        left: 12%;
-        border: 2px solid black;
-    }
-    
-    input {
-        border: 2px solid black
-    }
-    
-    #textarea {
-        height: 100%;
-        color: black;
-        border: 2px solid black
+        top: 15%;
+        left: 15%;
     }
 
     .social-media {
-        letter-spacing: 15px;
+        letter-spacing: 10px;
     }
 }
-        
-    
