@@ -168,10 +168,10 @@ header a {
 }
 
 .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-    width: 70%;
+    width: 80%;
     color: white;
     position: absolute;
-    left: 15%;
+    left: 10%;
     top: 10%;
     text-align: center;
     font-size: 200%;
@@ -333,17 +333,9 @@ footer {
 
 /* For screens size of 900px and down */
 @media screen and (max-width: 900px) {
-    header {
-        height: 80%;
-    }
-
-    #shop-logo {
-        font-size: 250%
-    }
-
-    #menu li {
-        font-size: 80%;
-    }
+    /* header {
+        height: 100%;
+    } */
 
     #hero-image {
         height: 1300px;
@@ -361,59 +353,24 @@ footer {
     }
 }
 
-/* For screens size of 640px and down */
-@media screen and (max-width: 640px) {
-    #shop-logo {
+/* For screens size of 680px and down */
+@media screen and (max-width: 680px) {
+    /* #shop-logo {
         font-size: 200%
-    }
+    } */
 
-    #menu li {
+    /* #menu li {
         font-size: 60%;
-    }
+    } */
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         top: 5%;
-        font-size: 100%
+        font-size: 200%
     }
 
-    .cover-text, .section-two-text {
-        top: 20%;
-        line-height: 22px;
-    }
-    
-    .section-one-text, .section-three-text {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text {
         top: 10%;
-        line-height: 20px;
-    }
-
-    .contacts-section-one-text {
-        top: 20%;
-        line-height: 25px;
-    }
-
-    #iframe {
-        width: 25%;
-        left: 65%;
-        top: 5%;
-    }
-
-    .contact-form {
-        width: 50%;
-        left: 25%;
-    }
-
-    #textarea {
-        height: 180px;
-    }
-
-    .copyright {
-        font-size: 60%;
-        top: 35%;
-    }
-
-    .social-media {
-        font-size: 60%;
-        top: 35%
+        line-height: 40px;
     }
 }
         
