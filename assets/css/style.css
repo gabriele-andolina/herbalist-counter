@@ -48,122 +48,119 @@ header a {
 }
 
 /* Main sections: background image, section title and content */
-img {
-    width: 100%;
-    height: 800px;
-    background-size: contain;
-    overflow: hidden;
-    background-position: center;
-    filter: brightness(50%);
-}
-
 #hero-image {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/hero-image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #our-story {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/couple-hiking.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #the-counter {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/jars-packed-shelves.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #our-philosophy {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/the-thinker.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #herbs {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/mortar.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #tea {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/tea.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #soaps-and-perfumes {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/soap.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #herbal-friday {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/herbalist-workshop.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #tea-ceremony {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/tea-ceremony.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #where-to-find-us {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/open-sign.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
+    border-top: 1px solid white;
 }
 
 #get-in-touch {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/typing-on-keyboard.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(60%);
-}
-
-/* section {
-    height: 700px;
-    overflow: hidden;
-    border-bottom: 1px solid #9db1a4;
-} */
-
-.homepage, .section-one {
-    border-top: 1px solid #9db1a4;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .homepage, .section-one, .section-two, .section-three {
@@ -300,27 +297,37 @@ footer {
 /* Media queries */
 /* For screens size of 1200px and down */
 @media screen and (max-width: 1200px) {
+    #hero-image, #our-story, #the-counter, #our-philosophy, #herbs, #tea, 
+    #soaps-and-perfumes, #herbal-friday, #tea-ceremony, #where-to-find-us, #get-in-touch {
+        height: 1200px;
+        background-position: center;
+    }
+
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-        top: 2%;
+        top: 10%;
     }
     
     .cover-text, .section-one-text, .section-two-text, .section-three-text {
         height: 60%;
         top: 20%;
-        font-size: 70%;
+        font-size: 150%;
         padding: 2%;
         }
 
-    section {
-        height: 1200px;
-            
-    }
+    .contacts-section-one-text {
+        height: 60%;
+        top: 20%;
+        left: 5%;
+        font-size: 150%;
+        padding: 2%;
+        }
         
     #iframe {
+        height: 25%;
         width: 40%;
         position: absolute;
-        left: 45%;
-        top: 15%;  
+        bottom: 30%;
+        right: 10%;  
     }
 }
 
