@@ -333,9 +333,6 @@ footer {
 
 /* For screens size of 900px and down */
 @media screen and (max-width: 900px) {
-    /* header {
-        height: 100%;
-    } */
 
     #hero-image {
         height: 1300px;
@@ -355,20 +352,12 @@ footer {
 
 /* For screens size of 680px and down */
 @media screen and (max-width: 680px) {
-    /* #shop-logo {
-        font-size: 200%
-    } */
-
-    /* #menu li {
-        font-size: 60%;
-    } */
-
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         top: 5%;
         font-size: 200%
     }
 
-    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
         top: 10%;
         line-height: 40px;
     }
@@ -376,7 +365,7 @@ footer {
 
 /* For screens size of 568px and down */
 @media screen and (max-width: 568px) {
-    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
         line-height: 35px;
     }
 
@@ -394,15 +383,23 @@ footer {
 
 /* For screens size of 420px and down */
 @media screen and (max-width: 420px) {
+    header {
+        height: 80%;
+    }
+
+    #shop-logo {
+        font-size: 150%;
+    }
+
     #menu li {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         font-size: 150%
     }
     
-    .cover-text, .section-one-text, .section-two-text, .section-three-text {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
         height: 60%;
         font-size: 100%;
     }
@@ -420,7 +417,44 @@ footer {
         left: 15%;
     }
 
+    .copyright {
+        font-size: 80%;
+    }
+
     .social-media {
         letter-spacing: 10px;
     }
 }
+
+/* For screens size of 320px and down */
+@media screen and (max-width: 320px) {
+    header {
+        height: 70%;
+    }
+
+    #shop-logo {
+        font-size: 120%;
+    }
+
+    #menu li {
+        font-size: 50%;
+    }
+
+    .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
+        font-size: 100%
+    }
+
+    .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
+        height: 60%;
+        font-size: 80%;
+    }
+
+    .copyright {
+        font-size: 70%;
+    }
+
+    .social-media {
+        letter-spacing: 8px;
+    }
+}
+
