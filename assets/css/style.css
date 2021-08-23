@@ -345,63 +345,20 @@ footer {
         font-size: 80%;
     }
 
-    section {
-        height: 100%;
-    }
-
-    .homepage, .section-one {
-        margin-top: 5px;
+    #hero-image {
+        height: 1300px;
+        background-position: left;
     }
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-        top: 2%;
-        font-size: 150%
+        top: 5%;
+        font-size: 200%
     }
 
-    .cover-text, .section-two-text {
-        top: 20%;
-        line-height: 25px;
-    }
-    
-    .section-one-text, .section-three-text {
+    .cover-text, .section-one-text, .section-two-text, .section-three-text {
         top: 10%;
-        line-height: 25px;
+        line-height: 50px;
     }
-
-    .contacts-section-one-text {
-        top: 10%;
-        line-height: 35px;
-    }
-    
-    #iframe {
-        width: 30%;
-        left: 60%;
-        bottom: 55%;
-    }
-    
-    .contact-form {
-        top: 12%;
-        
-    }
-
-    #textarea {
-        height: 180px;
-    }
-
-    footer {
-        height: 45px;
-    }
-    
-    .copyright {
-        font-size: 80%;
-        top: 35%;
-    }
-
-    .social-media {
-        font-size: 80%;
-        top: 35%
-    }
-    
 }
 
 /* For screens size of 640px and down */
