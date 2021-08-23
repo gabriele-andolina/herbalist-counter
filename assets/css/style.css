@@ -50,14 +50,117 @@ header a {
 /* Main sections: background image, section title and content */
 img {
     width: 100%;
+    height: 800px;
+    background-size: contain;
+    overflow: hidden;
+    background-position: center;
     filter: brightness(50%);
 }
 
-section {
+#hero-image {
     height: 800px;
+    width: 100%;
+    background-image: url(../images/hero-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#our-story {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/couple-hiking.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#the-counter {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/jars-packed-shelves.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#our-philosophy {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/the-thinker.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#herbs {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/mortar.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#tea {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/tea.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#soaps-and-perfumes {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/soap.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#herbal-friday {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/herbalist-workshop.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#tea-ceremony {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/tea-ceremony.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#where-to-find-us {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/open-sign.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+#get-in-touch {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/typing-on-keyboard.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+}
+
+/* section {
+    height: 700px;
     overflow: hidden;
     border-bottom: 1px solid #9db1a4;
-}
+} */
 
 .homepage, .section-one {
     border-top: 1px solid #9db1a4;
@@ -83,11 +186,16 @@ section {
     width: 70%;
     color: white;
     font-family: "Montserrat", "Times New Roman", sans-serif;
+    font-weight: 900;
     position: absolute;
     left: 15%;
     top: 25%;
-    text-align: justify;
+    text-align: center;
     line-height: 40px;
+}
+
+.cover-text {
+    top: 30%;
 }
 
 .contacts-section-one-text {
