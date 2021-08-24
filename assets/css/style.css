@@ -395,6 +395,11 @@ footer {
         font-size: 70%;
     }
 
+    #hero-image {
+        background-position: bottom;
+        background-position-x: 24%;
+    }
+
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         font-size: 150%
     }
@@ -418,11 +423,42 @@ footer {
     }
 
     .copyright {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .social-media {
+        font-size: 70%;
         letter-spacing: 10px;
+    }
+}
+
+/* For screens size of 380px and down */
+@media screen and (max-width: 380px) {
+    header {
+        height: 70%;
+    }
+
+    #shop-logo {
+        font-size: 140%;
+    }
+
+    #menu li {
+        font-size: 60%;
+    }
+
+    #iframe {
+        top: 65%;
+        right: 32%;
+        width: 70%;
+        height: 20%;
+    }
+
+    .copyright {
+        font-size: 60%;
+    }
+
+    .social-media {
+        font-size: 60%;
     }
 }
 
@@ -450,10 +486,11 @@ footer {
     }
 
     .copyright {
-        font-size: 70%;
+        font-size: 50%;
     }
 
     .social-media {
+        font-size: 50%;
         letter-spacing: 8px;
     }
 }
