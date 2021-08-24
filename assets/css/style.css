@@ -195,6 +195,7 @@ header a {
     top: 30%;
 }
 
+/* Where to find us section */
 .contacts-section-one-text {
     height: 40%;
     width: 70%;
@@ -340,7 +341,7 @@ footer {
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         top: 5%;
-        font-size: 200%
+        font-size: 200%;
     }
 
     .cover-text, .section-one-text, .section-two-text, .section-three-text {
@@ -362,7 +363,7 @@ footer {
 @media screen and (max-width: 680px) {
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         top: 5%;
-        font-size: 200%
+        font-size: 200%;
     }
 
     .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
@@ -388,7 +389,7 @@ footer {
     }
 
     #iframe {
-        left: 6%
+        left: 6%;
     }
 }
 
@@ -412,7 +413,7 @@ footer {
     }
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-        font-size: 150%
+        font-size: 150%;
     }
     
     .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
@@ -481,7 +482,7 @@ footer {
     }
 
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
-        font-size: 100%
+        font-size: 100%;
     }
 
     .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
