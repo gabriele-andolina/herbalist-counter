@@ -214,10 +214,9 @@ header a {
 }
 
 #iframe {
-    height: 50%;
     position: absolute;
-    right: 25%;
-    bottom: 55%;
+    right: 15%;
+    top: 25%;
 }
 
 /* Contact form */
@@ -326,7 +325,7 @@ footer {
         height: 25%;
         width: 40%;
         position: absolute;
-        bottom: 30%;
+        top: 20%;
         right: 10%;  
     }
 }
@@ -348,6 +347,15 @@ footer {
         top: 10%;
         line-height: 50px;
     }
+
+    .contacts-section-one-text {
+        top: 15%;
+    }
+
+    #iframe {
+        top: 55%;
+        right: 30%;
+    }
 }
 
 /* For screens size of 680px and down */
@@ -360,6 +368,11 @@ footer {
     .cover-text, .section-one-text, .section-two-text, .section-three-text, .contacts-section-one-text {
         top: 10%;
         line-height: 40px;
+    }
+
+    #iframe {
+        top: 50%;
+        right: 46%;
     }
 }
 
@@ -375,9 +388,7 @@ footer {
     }
 
     #iframe {
-        right: 5%;
-        width: 35%;
-        height: 20%;
+        left: 6%
     }
 }
 
@@ -410,10 +421,10 @@ footer {
     }
 
     #iframe {
-        top: 70%;
-        right: 30%;
-        width: 70%;
-        height: 18%;
+        width: 90%;
+        height: 30%;
+        left: 5%;
+        overflow: hidden;
     }
 
     .contact-form {
@@ -444,13 +455,6 @@ footer {
 
     #menu li {
         font-size: 60%;
-    }
-
-    #iframe {
-        top: 65%;
-        right: 32%;
-        width: 70%;
-        height: 20%;
     }
 
     .copyright {
