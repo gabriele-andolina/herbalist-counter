@@ -309,7 +309,8 @@ footer {
 /* For screens size of 1200px and down */
 @media screen and (max-width: 1200px) {
     #hero-image, #our-story, #the-counter, #our-philosophy, #herbs, #tea, 
-    #soaps-and-perfumes, #herbal-friday, #tea-ceremony, #where-to-find-us, #get-in-touch {
+    #soaps-and-perfumes, #herbal-friday, #tea-ceremony, #where-to-find-us, 
+    #get-in-touch, #thank-you {
         height: 1200px;
         background-position: center;
     }
@@ -350,6 +351,10 @@ footer {
         background-position: left;
     }
 
+    #thank-you {
+        background-position: right;
+    }
+
     .cover-text-title, .section-one-title, .section-two-title, .section-three-title {
         top: 5%;
         font-size: 200%;
@@ -357,7 +362,7 @@ footer {
 
     .cover-text, .section-one-text, .section-two-text, .section-three-text {
         top: 10%;
-        line-height: 50px;
+        line-height: 45px;
     }
 
     .contacts-section-one-text {
