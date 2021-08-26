@@ -14,3 +14,10 @@ The two herbalists who own the website have two objectives in mind: to make thei
 The first type of website users are the people in search of a herbalist in the city of Turin. They don't know the Counter yet, so they open their browser and search for such a shop in the city. Among the results, they find out about The Herbalist's Counter: who the owners are, what products are on offer, where the shop is located. These users are also intrigued by the fact that the shop organizes two monthly events and therefore decide to go see the place for themselves.
 * Returning user/visitor:
 The second type of users are already acquainted with the shop, having already been there in the past and enjoyed the experience. They have taken part in the Herbal Friday event once or twice, have had fun there and learnt something new about herbs. They are now in need of another visit to the shop, for instance to purchase a herbal tea for their cold, and they open the website to remind themselves of the opening hours. When they land on the Counter's website, they find out that a Tea Ceremony event will be hosted soon and take note to ask the two owners about it.
+
+## **Features**
+### *Existing features*
+* Shop logo & Navigation Bar
+![The shop logo and navigation bar](navigation-bar.png)
+At the top of each page the user can find the shop logo and the navigation bar. The clickable shop logo represents a shortcut to go back to the homepage, whereas the navigation bar allows for navigation to all the pages in the website: Home, Our shop, Our products, Events, Contact us.
+* Homepage
