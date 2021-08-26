@@ -20,4 +20,36 @@ The second type of users are already acquainted with the shop, having already be
 * Shop logo & Navigation Bar
 ![The shop logo and navigation bar](navigation-bar.png)
 At the top of each page the user can find the shop logo and the navigation bar. The clickable shop logo represents a shortcut to go back to the homepage, whereas the navigation bar allows for navigation to all the pages in the website: Home, Our shop, Our products, Events, Contact us.
+
 * Homepage
+![The Herbalist's Counter's homepage](home.png)
+The website's homepage concisely informs users of the shop's location, products and mission.
+
+* Our shop
+![Our shop's page with its three sections](our-shop.png)
+ Divided in three sections, it provides an opportunity to learn about the story of the two herbalists, their shop and their philosophy/approach to their work.
+
+ * Our products
+![Our product's page with its three sections](our-products.png)
+The products' page allows the site owners to promote their products and the site users to know what they will find in the shop.
+
+* Events
+![The website's events page](events.png)
+This page serves the shop/website's educational vocation: in it, the two owners promote two events that will attract people to their shop to try their products and learn about herbs. Users come to understand that The Herbalist's Counter is more than just a herbalist's shop: it is a place to meet people, learn something new and find out about ways to improve their health condition.
+
+* Contact us
+![The website's contacts section](contact-us.png)
+Here important information about the shop's location and opening hours are shown. The page also provides the users with an opportunity to engage with the two herbalists by filling out a contact form with a personal inquiry.
+
+* Thank-you note
+![A custom thank you page](thank-you.png)
+The *Thank you* page, reachable only after filling out the contact form, lets the users know that their message has been successfully sent, that it is appreciated and that a reply will follow soon.
+
+* Copyright & Social media
+![The website's copyright line and social media links](social-media.png)
+Placed at the bottom of every page, it allows the users to reach The Herbalist's Counter beyond its website, on Facebook, Instagram, and Twitter. There, new content awaits the user.
+
+### *Features left to implement*
+* *YouTube Channel*: The development of a YouTube channel, accessible through its related social media icon, will allow the site owners to share more informative contents about herbs (for instance, by showing how a certain herbal tea is best prepared or by showing short videos of their tea-hunting trips to China and India).
+* *Learning page*: An additional page could host separate informative sheets about herbs, each one describing some important qualities of each herb, as well as some interesting anecdote or historical fact. This feature will expand the educational mission of the two herbalists.
+* *E-commerce platform*: Not everyone can go to The Herbalist's Counter in person; for this reason, developing an e-commerce platform within the website will allow the shop to extend its commercial reach, shipping its goods to other cities too.
