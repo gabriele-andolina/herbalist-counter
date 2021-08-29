@@ -72,8 +72,13 @@ Placed at the bottom of every page, it allows the users to reach The Herbalist's
 * HTML
    * The final version of the code is free of errors when passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabriele-andolina.github.io%2Fherbalist-counter%2F).
    Earlier versions of the code, on the contrary, had some mistakes to be corrected. In particular, there was a syntax error due to a `p` element placed within a `h3` one and two `div` elements that lacked a closing tag. Thanks to the validator's report I was able to discover and correct them.
+
+   ![W3C HTML Validation](assets/documentation/html-validation.png)
+
 * CSS 
-   * No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator).
+   * No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgabriele-andolina.github.io%2Fherbalist-counter%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+   ![W3C CSS Validation](assets/documentation/css-validation.png)
 
 ### 4.2 *Responsiveness*
 After finishing the very first version of the website, I started working on the media queries to ensure responsiveness on mobile and tablet. To do so, I constantly tested the website with the Chrome Developer Tools, employing a combination of the "responsive" function (that is, manually checking the breakpoints) and of the available set screen sizes (i.e. iPad, iPhone, etc.). This led me to write media queries for a number of different screen sizes, specifying styles for max-widths of 1200px, 900px, 680px, 568px, 420px, 380px and 320px. At the end, I was able to make the site responsive for the most common screen sizes. This part of the development process can perhaps be sped up by using libraries like Bootstrap. These tools being currently out of my skill set, however, I had to manually specify the styles for the different screen sizes.
@@ -129,6 +134,7 @@ The site has been deployed to GitHub Pages. The steps to deploy are as follows:
    * **GitHub**: GitHub, together with GitHub Pages, has been used to store the project's repository and deploy the website.
    * **Google Fonts**: Google Fonts has been used to import the two fonts in use on the website, namely the "Great Vibes" and "Montserrat" ones.
    * **Compresss.com**: This website has been instrumental in reducing the size of the images employed in the project, with the positive result of an increased performance in the final version.
+   * **ColorSpace**: The color palette used in the project has been created on this website.
 
 ## 7. **Credits**
 ### 7.1 *Code*
